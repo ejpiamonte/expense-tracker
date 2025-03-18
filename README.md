@@ -74,13 +74,16 @@ Access the app at `http://localhost:8081`.
 ## Folder Structure
 ```
 /app
-├── Controllers      # Handles business logic
-├── Models           # Database interactions
-├── Views            # Frontend templates
-/public
-├── css              # Static files like CSS and JS
-/database
-├── expense_tracker.sql  # Database schema
+ ├── /Controllers
+ │   └── ExpenseController.php
+ ├── /Models
+ │   └── Expense.php
+ ├── /Views
+ │   └── dashboard.php
+ └── /Database
+     ├── Migrations
+     └── Seeds
+
 ```
 
 ## Improvements in Progress
