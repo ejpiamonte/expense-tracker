@@ -40,11 +40,14 @@ cp .env.example .env
 ```
 Update the database credentials in the `.env` file:
 ```env
-database.default.hostname = 127.0.0.1
+app.baseURL = 'http://localhost:8081'
+
+database.default.hostname = localhost:3307
 database.default.database = expense_tracker
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi
+database.default.port = 3307
 ```
 
 ### Step 4: Import the Database
@@ -61,7 +64,7 @@ Serve the application using:
 ```bash
 php spark serve
 ```
-Access the app at `http://localhost:8080`.
+Access the app at `http://localhost:8081`.
 
 ## Usage
 - **Add Expenses:** Create new entries for tracking.
@@ -75,7 +78,7 @@ Access the app at `http://localhost:8080`.
 ├── Models           # Database interactions
 ├── Views            # Frontend templates
 /public
-├── assets           # Static files like CSS and JS
+├── css              # Static files like CSS and JS
 /database
 ├── expense_tracker.sql  # Database schema
 ```
