@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 0; /* Remove default margin */
+  background-color: #f9f9f9; /* Optional: Light background for better aesthetics */
+  font-family: Arial, sans-serif; /* Clean, readable font */
+}
+
+.expense-container {
+  text-align: center; /* Align text content */
+  background-color: #ffffff; /* Clean white background */
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 100%;
+  max-width: 600px; /* Prevents layout from becoming too wide */
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+  gap: 10px; /* Adds spacing between form elements */
+}
+
+button {
+  background-color: #4CAF50; /* Green button */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
