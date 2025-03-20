@@ -2,6 +2,10 @@
 
 A simple Expense Tracker web application built using CodeIgniter 4, PHP, and XAMPP. This project allows users to create, read, update, and delete (CRUD) expense records with an intuitive visual dashboard powered by Chart.js.
 
+## Video Demo
+
+[![Expense Tracker Demo](https://img.youtube.com/vi/aou-gCvG0h0/maxresdefault.jpg)](https://youtu.be/aou-gCvG0h0)
+
 ## Features
 ✅ CRUD Operations: Add, edit, and delete expense entries.
 
